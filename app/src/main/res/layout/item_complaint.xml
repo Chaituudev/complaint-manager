@@ -6,60 +6,69 @@
     android:background="@drawable/card_background"
     android:layout_margin="6dp">
 
+    <!-- Complaint Title -->
     <TextView
-        android:id="@+id/tvTitle"
+        android:id="@+id/tvComplaintTitle"
         android:textStyle="bold"
         android:textSize="18sp"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:text="Complaint Title" />
 
+    <!-- Complaint Description -->
     <TextView
-        android:id="@+id/tvDesc"
+        android:id="@+id/tvComplaintDesc"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:text="Complaint description here" />
 
-
+    <!-- Complaint Reference ID -->
     <TextView
-        android:id="@+id/tvRef"
+        android:id="@+id/tvComplaintRef"
         android:text="CMP-0001"
         android:textStyle="bold"
         android:textColor="@android:color/holo_red_dark"
         android:textSize="16sp"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content" />
 
-
+    <!-- Complaint Status -->
     <TextView
-        android:id="@+id/tvStatus"
+        android:id="@+id/tvComplaintStatus"
+        android:text="Status: --"
         android:textColor="@android:color/holo_blue_dark"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content" />
 
+    <!-- Assigned Authority -->
     <TextView
         android:id="@+id/tvAuthority"
         android:text="Authority: Not Assigned"
         android:textSize="14sp"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content" />
 
+    <!-- Assigned Department -->
     <TextView
         android:id="@+id/tvDepartment"
         android:text="Department: Not Assigned"
         android:textSize="14sp"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content" />
 
+    <!-- Complaint Created Date -->
     <TextView
-        android:id="@+id/tvCreated"
+        android:id="@+id/tvComplaintCreated"
         android:text="Submitted: --"
         android:textSize="12sp"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content" />
 
+    <!-- Complaint Last Updated -->
     <TextView
-        android:id="@+id/tvUpdated"
+        android:id="@+id/tvComplaintUpdated"
         android:text="Last Updated: --"
         android:textSize="12sp"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content" />
 </LinearLayout>
