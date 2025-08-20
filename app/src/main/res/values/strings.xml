@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Complaint</string>
+    <string-array name="roles">
+        <item>user</item>
+        <item>authority</item>
+        <item>department</item>
+        <item>admin</item>
+    </string-array>
+
+    <string-array name="complaint_status_filter">
+        <item>All</item>
+        <item>Submitted</item>
+        <item>Approved</item>
+        <item>In Process</item>
+        <item>Completed</item>
+    </string-array>
+
+    <!-- Common -->
+    <string name="logout">Logout</string>
+
+    <!-- User complaint -->
+    <string name="complaint_title">Complaint Title</string>
+    <string name="complaint_description">Complaint Description</string>
+    <string name="submit_complaint">Submit Complaint</string>
+    <string name="select_authority">Select Authority</string>
+
+    <string name="select_department">Select Department</string>
+
+
+    <string name="department_dashboard_title">Department Dashboard</string>
+
+
+    <string name="confirm_action_title">Confirm action</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="status_updated">Status updated</string>
+    <string name="status_prefix">Status: %1$s</string>
+
+    <!-- Department actions -->
+    <string name="mark_resolved">Mark Resolved</string>
+    <string name="send_back">Send Back</string>
+    <string name="confirm_mark_resolved">Mark this complaint as resolved?</string>
+    <string name="confirm_send_back">Send this complaint back to authority?</string>
+
+
+</resources>
